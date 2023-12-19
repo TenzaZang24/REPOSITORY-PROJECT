@@ -1,0 +1,125 @@
+@font-face {
+    font-family: "Poppins";
+    src:local("D:/XAMPP/htdocs/NEECO1/neecoproj/Poppins/Poppins-Regular.ttf");
+}
+
+body{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    
+}
+
+.bgi{
+    background-image: url('images/neecorain.png');
+    background-size: cover;
+}
+
+.olive {
+    color: #FFFF00;
+}
+
+.sage {
+    color: #D1E2C4;
+}
+
+.pewter {
+    color: #EBEBE8;
+}
+
+.olive-green {
+    color: #31352E;
+}
+
+.butt {
+    background-color: #FFFF00;
+    color: black;
+    cursor: pointer;
+    border-radius: 6px;
+    border: 2px solid #FFFF00;
+    padding: 5px 10px;
+    transition-duration: 0.3s;
+}
+
+.butt:hover {
+    background-color:gray;
+    border: 2px solid #FFFF00;
+    color: #FFFF00;
+}
+
+.butt2 {
+    background-color: #31352E;
+    color: white;
+    cursor: pointer;
+    border-radius: 6px;
+    border: 2px solid #31352E;
+    padding: 5px 10px;
+    transition-duration: 0.3s;
+}
+
+.butt2:hover {
+    background-color:black;
+    border: 2px solid #31352E;
+    color: #31352E;
+}
+
+.bg-olive {
+    background-color: #FFFF00;;
+}
+
+.bg-sage {
+    background-color: black;
+}
+
+.butt4 {
+    background-image: linear-gradient(to right, #FFFF00; 0%, #D1E2C4  51%, #FFFF00;  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: black;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.butt4:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: black;
+    text-decoration: none;
+}
+
+.button {
+    background-color: #1c87c9;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+    border: none;
+    color: #eeeeee;
+    cursor: pointer;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+  }
+  @keyframes glowing {
+    0% {
+      background-color: #FFFF00;#2ba805;
+      box-shadow: 0 0 5px #FFFF00;;
+    }
+    50% {
+      background-color:#FFFF00;;
+      box-shadow: 0 0 20px #FFFF00;;
+    }
+    100% {
+      background-color: #FFFF00;;
+      box-shadow: 0 0 5px #FFFF00;;
+    }
+  }
+  .button {
+    animation: glowing 1300ms infinite;
+  }
+
